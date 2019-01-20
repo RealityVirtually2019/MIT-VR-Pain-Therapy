@@ -247,10 +247,86 @@
     <Compile Include="Assets\LeapMotion\Core\Scripts\Utils\XRSupportUtil.cs" />
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\LeapEyeDislocator.cs" />
     <Compile Include="Assets\LeapMotion\Core\Scripts\XR\XRHeightOffset.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Examples\Scripts\CenterTransformOnCam.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Examples\Scripts\CycleHandPairs.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\LeapHandsAutoRig.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\MinimalHand.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\PolyFinger.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\Hands\Scripts\PolyHand.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\2. Basic UI\MovePoseExample.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\TransformHandle.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\TransformRotationHandle.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\TransformTool.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\3. Interaction Callbacks\Scripts\TransformTranslationHandle.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\5. Anchors\SimpleAnchorFeedback.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Scripts\SimpleMatchAnchorScaleAndState.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Scripts\WorkstationBehaviourExample.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Tests\Scripts\RenderWireSphere.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\6. Dynamic UI\Tests\Scripts\WorkstationPoseTest.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\AngularSpeedTextBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\AutopilotSystem.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\LinearReferenceSpawner.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\LinearSpeedTextBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\7. Moving Reference Frames\Scripts\Spaceship.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\8. Swap Grasp\Scripts\SwapGraspExample.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleFacingCameraCallbacks.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleInteractionEmission.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleInteractionGlow.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleRendererUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleScaleUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Examples\Common Example Assets\Scripts\SimpleTransformUtil.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionController.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionHand.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionManager.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\InteractionXRController.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\ContactBone.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\ContactBoneParent.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\DefaultXRNodeTrackingProvider.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\HeuristicGrabClassifier.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IGraspedMovementHandler.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IGraspedPoseHandler.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IInteractionBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IInternalInteractionController.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IInternalInteractionManager.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\Interface\IThrowHandler.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\IXRControllerTrackingProvider.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\KabschGraspedPose.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\KinematicGraspedMovement.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\NonKinematicGraspedMovement.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Internal\SlidingWindowThrow.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\Anchor.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\AnchorableBehaviour.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\AnchorGroup.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Anchors\Tests\AnchorScoreTest.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\InteractionButton.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\InteractionSlider.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\InteractionToggle.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\ActivityManager.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\Extensions.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\GraspedMovementEvent.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\HideInteractionHandWhenControllerMoving.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\IgnoreColliderForInteraction.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\IgnoreCollisionsInChildren.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\KabschSolver.cs" />
+    <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\PhysicsCallbacks.cs" />
     <Compile Include="Assets\MagicMirror\Demo\DemoScript.cs" />
     <Compile Include="Assets\MagicMirror\Prefab\MirrorCameraScript.cs" />
     <Compile Include="Assets\MagicMirror\Prefab\MirrorReflectionScript.cs" />
     <Compile Include="Assets\MagicMirror\Prefab\MirrorScript.cs" />
+    <Compile Include="Assets\Scripts\AnimationTrigger.cs" />
+    <Compile Include="Assets\Scripts\InteractionColor.cs" />
+    <Compile Include="Assets\Scripts\InteractionZoom.cs" />
+    <Compile Include="Assets\Scripts\Lesion.cs" />
+    <Compile Include="Assets\Scripts\MiniMarker.cs" />
+    <Compile Include="Assets\Scripts\Step.cs" />
+    <Compile Include="Assets\Scripts\StepManager.cs" />
+    <Compile Include="Assets\Scripts\Tests\Rotate.cs" />
+    <Compile Include="Assets\Scripts\TurntableAlt.cs" />
+    <Compile Include="Assets\Scripts\UI\Pivot.cs" />
+    <Compile Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
+    <Compile Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
+    <Compile Include="Assets\Shader Forge\Assets\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -379,19 +455,19 @@
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/erikagangware/Desktop/Master-MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/erikagangware/Desktop/Master-MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/erikagangware/Desktop/Master-MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/erikagangware/Desktop/Master-MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/erikagangware/Desktop/Master-MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity_2018.3.2f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -594,14 +670,17 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity_2018.3.2f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="InteractionEngineUtility">
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/erikagangware/Desktop/Master-MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/erikagangware/Desktop/Master-MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/erikagangware/Desktop/Master-MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity_2018.3.2f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

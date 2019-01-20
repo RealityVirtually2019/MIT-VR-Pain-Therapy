@@ -93,6 +93,7 @@ namespace Leap.Unity {
     }
 
     public override void UpdateHand() {
+          
       if (palm != null) {
         if (ModelPalmAtLeapWrist) {
           palm.position = GetWristPosition();

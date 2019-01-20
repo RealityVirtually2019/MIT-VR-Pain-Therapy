@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene_One.unity
+    path: Assets/Scenes/Scene_One.unity
     guid: 929bc2eb733a841989a6db74493fbaca
   - enabled: 0
     path: Assets/MagicMirror/Demo/DemoScene.unity
