@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1403
     height: 806
-  m_MinSize: {x: 683, y: 348}
-  m_MaxSize: {x: 12008, y: 8048}
+  m_MinSize: {x: 683, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 2279
+  controlID: 2948
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,10 +126,10 @@ MonoBehaviour:
     y: 0
     width: 998
     height: 806
-  m_MinSize: {x: 406, y: 348}
-  m_MaxSize: {x: 8006, y: 8048}
+  m_MinSize: {x: 406, y: 498}
+  m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 2280
+  controlID: 2949
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 224}
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
-  controlID: 2281
+  controlID: 2920
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,7 +212,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 48f3ffff66f3ffff70f3ffffd4f5fffff4f5ffffa8f8ffffbafbffffc4370000263800007e380000323b0000
+      m_ExpandedIDs: 48f3ffff66f3ffff70f3ffffd4f5fffff4f5ffffa8f8ffffbafbffffc4370000263800007e380000323b0000923b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -454,15 +454,15 @@ MonoBehaviour:
     y: 532
     width: 998
     height: 274
-  m_MinSize: {x: 102, y: 124}
-  m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -501,20 +501,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/MagicMirror/Prefab/NewMirr
+    - Assets/LeapMotion/Core/Scripts/Hands
   m_ViewMode: 1
-  m_StartGridSize: 35
+  m_StartGridSize: 16
   m_LastFolders:
-  - Assets/MagicMirror/Prefab/NewMirr
+  - Assets/LeapMotion/Core/Scripts/Hands
   m_LastFoldersGridSize: 35
   m_LastProjectPath: /Users/erikagangware/version-control/MIT-VR-Pain-Therapy/MIT-VR-Pain-Therapy
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 73.99786}
-    m_SelectedIDs: 603c0000
-    m_LastClickedID: 15456
-    m_ExpandedIDs: 00000000380f00005a0f0000cc100000b812000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 259}
+    m_SelectedIDs: f4110000
+    m_LastClickedID: 4596
+    m_ExpandedIDs: 00000000380f00005a0f00006a100000cc100000f0110000b812000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,9 +567,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4ce3ffff
-    m_LastClickedInstanceID: -7348
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: ae3a0000
+    m_LastClickedInstanceID: 15022
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 80e9ffffdc250000e21c000064220000d42300002e260000fc230000a423000020baffff7e3fffff4838ffff802800001e270000a62300007a280000202700007c280000acf4fffff6e4ffff16280000ea290000ba3c0000e451ffff5463ffff482affff264c0300f8720100e05a00004e310000f22b00001c320000c83e0000623100007a3e00001a3200008237000076390000ba2a0000de2a0000a4330000d0370000582e0000e62b0000aa2b0000d42c0000a63400000835000098310000c233000058300000e20700000c300000363c000030300000803400002e2c00007ec500004e3300003e3400002e370000983000008c380000aa3b000040320000e22a0000062d00009437000026370000863f0000563d00002a310000ac3300007c2e00002c310000ae330000b6330000ce3700007a3c0000f63d00006431000016310000fa410000943f00000c3d00005a370000a03c0000e84100004e37000002480000ea380000363400004c430000a2490000104a00009842000080430000f23700004c460000ae430000363f00007a360000502e0000ae3f00005a3c00009e2e00004237000094330000dc400000703a000000000000ae2e0000465c0000b0370000f24200009cc50000162900009e270000ee290000ec2c0000cc290000663f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -595,7 +595,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 35
+    m_GridSize: 16
   m_DirectoriesAreaWidth: 269
 --- !u!114 &13
 MonoBehaviour:
