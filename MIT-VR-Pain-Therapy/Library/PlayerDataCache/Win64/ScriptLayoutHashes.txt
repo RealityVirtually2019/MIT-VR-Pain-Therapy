@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-/Users/erikagangware/Desktop/ENIVORNMENT_1/MIT-VR-Pain-Therapy.exe
+/Users/erikagangware/Desktop/FINALDRAFT2/MIT-VR-Pain-Therapy.exe
 SceneListBegin?
 Assets/SampleScene2.unity
 SceneListEnd?
